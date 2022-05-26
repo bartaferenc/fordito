@@ -5,6 +5,7 @@ body{
     align-items: center;
     justify-content: center;
     text-align: center;
+    
 }
 .head{
     padding: 10px;
@@ -51,4 +52,16 @@ body{
     border-radius: 50%;
     /* make it nice */
     border: 5px solid rgb(6, 209, 50);
+}
+.ribs{
+    /* disable href highlighting */
+    color: white;
+    text-decoration: none;
+   
+}
+.ribs:hover{
+    /* make it nice */
+    font-size: 14pt;
+    color: orange;
+    text-decoration: none;
 }
