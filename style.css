@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(24, 24, 24);
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+}
+.head{
+    padding: 10px;
+    margin: 10px;
+}
+.mainbox{
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(217, 218, 219);
+}
+.translated{
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(217, 218, 219);
+}
+.but{
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(217, 218, 219);
+    /* make it nice */
+
+    border-radius: 5px;
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: black;
+
+}
