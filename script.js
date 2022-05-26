@@ -3,6 +3,15 @@ translated = document.getElementById('translated');
 but = document.getElementById('but');
 krater = document.getElementById('krater');
 ip = document.getElementById('ip');
+capybara = document.getElementById('capybara');
+
+//if capybara is clicked
+capybara.addEventListener('click', function(){
+    //change background image of mainbox to capybara.jpg
+    mainbox.style.backgroundImage = "url('capy.png')";
+    
+
+});
 
 but.addEventListener('click', function(){
     if (mainbox.value.length > 0){

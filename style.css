@@ -2,22 +2,32 @@ body{
     background-color: rgb(24, 24, 24);
     color: rgb(255, 255, 255);
     font-family: 'Courier New', Courier, monospace;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 .head{
     padding: 10px;
     margin: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
 }
 .mainbox{
     padding: 10px;
     margin: 10px;
     background-color: rgb(217, 218, 219);
     resize: none;
+    /* make the border nice*/
+    border: 5px solid rgb(88, 88, 88);
 }
 .translated{
     padding: 10px;
     margin: 10px;
     background-color: rgb(217, 218, 219);
     resize: none;
+    border: 5px solid rgb(88, 88, 88);
 }
 .but{
     padding: 10px;
@@ -35,4 +45,10 @@ body{
 }
 .but:hover{
     opacity: 0.8;
+}
+.capybara{
+    /* make the border circle */
+    border-radius: 50%;
+    /* make it nice */
+    border: 5px solid rgb(6, 209, 50);
 }
