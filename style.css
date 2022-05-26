@@ -31,3 +31,6 @@ body{
     color: black;
 
 }
+.but:hover{
+    opacity: 0.8;
+}
